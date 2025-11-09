@@ -26,6 +26,8 @@ Before modeling, the data was:
 | **Holt–Winters Additive Model**        | Models both trend and seasonality additively           |
 | **Holt–Winters Multiplicative Model**  | Suitable for series with increasing seasonal amplitude |
 
+![Model Comparison](model-comparison.png)
+
 ## Model Comparison
 
 
@@ -34,6 +36,7 @@ Before modeling, the data was:
 | **RMSE / MAE / MAPE**                 | Measures absolute and relative forecast errors                                         |
 | **MASE (Mean Absolute Scaled Error)** | Compares against a naïve benchmark for scale-free comparison                           |
 | **Theil’s U Statistic**               | Evaluates relative forecast efficiency — U < 1 indicates better than naïve forecasting |
+
 
 ## Evaluation Metrics
 
